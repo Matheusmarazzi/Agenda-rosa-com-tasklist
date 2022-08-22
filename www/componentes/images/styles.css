@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("fundo.jpg");
+    height: 50vh;
+    width: 15vh;
+    background-position: center;
+}
+
+.container {
+  border: 2px solid rgb(216, 211, 211);
+  padding: 30px 20px;
+  width: 43vh;
+  margin-top: 60%;
+  margin-left: 10%;
+}
+
+#voltar{
+    margin-top: 20px;
+}
+
+.new-task-container input {
+  height: 40px;
+  width: 80%;
+}
+
+.new-task-container input:focus {
+  outline: none;
+  border-color: #41b883;
+}
+
+.new-task-button {
+    width: 17%;
+    height: 10%;
+}
+
+.tasks-container {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.task-item i {
+  background-color: #41b883;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.task-item i:hover {
+  cursor: pointer;
+}
+
+/* Utilities */
+.error {
+  border: 2px solid red !important;
+}
+
+.error::placeholder {
+  color: red;
+}
+
+.completed {
+  text-decoration: line-through;
+}

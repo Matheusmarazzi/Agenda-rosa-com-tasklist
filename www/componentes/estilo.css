@@ -1,0 +1,77 @@
+.col-8{
+    background-color: #FFCDDB;
+    font-size: 3vh;
+    
+    
+    
+}
+.col-12
+{
+    background-color: #FF69B4;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    
+    
+}
+.titulo{
+    background-color: #ff009d;
+    color: white;
+    text-align: center;
+}
+#container{
+    background-image: url("./images/fundo.jpg");
+    height: 100vh;
+    background-position: center;
+}
+#voltar{
+    margin-top: 20px;
+}
+#tarefo{
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 40%;
+}
+#butao{
+    width: 20%;
+    height: 10%;
+    margin-top: 40%;
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 15px;
+}
+.task-item i{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.c1{
+    border: black solid;
+}
+#tarefas{
+    margin-top: 25px;
+    background-color: #ffcdf8;
+    width:80% ;
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.itens{
+    color: white;
+    font-size: 25px;
+    
+}
+.delete{
+    float: right;
+    margin-top: 10px ;
+}
+h1{
+    border: white;
+}
